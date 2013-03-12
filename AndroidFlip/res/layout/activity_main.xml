@@ -9,8 +9,29 @@
     tools:context=".MainActivity" >
 
     <TextView
+        android:id="@+id/FlipResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:minHeight="300dp"
+        android:minWidth="250dp"
+        android:text="@string/heads"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="100sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <Button
+        android:id="@+id/FlipCoin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="48dp"
+        android:minWidth="250dp"
+        android:text="@string/flip_coin" 
+        android:onClick="flipCoin"/>
 
 </RelativeLayout>

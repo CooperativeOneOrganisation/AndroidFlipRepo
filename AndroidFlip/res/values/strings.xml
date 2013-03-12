@@ -4,5 +4,12 @@
     <string name="app_name">AndroidFlip</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    
+    <!-- Textview -->
+    <string name="heads">Heads</string>
+    <string name="tails">Tails</string>
+    
+    <!-- Flip Coin Button -->
+    <string name="flip_coin">Flip Coin</string>
 
 </resources>
